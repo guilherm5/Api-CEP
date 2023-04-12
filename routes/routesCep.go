@@ -7,5 +7,5 @@ import (
 )
 
 func CepGet(c *gin.Engine) {
-	c.POST("/", controllers.ObtemCep)
+	c.POST("/cep", controllers.ObtemCep)
 }
